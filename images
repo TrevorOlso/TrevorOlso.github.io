@@ -1,1 +1,10 @@
-git add 
+git add F47C06A6-1CC7-4515-8998-15A6C8ACE3A6.JPG
+git commit -m "Add new file"
+git push origin master
+
+git add BEar.jpg
+git commit -m "Add new file"
+git push origin master
+
+
+
