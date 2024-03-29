@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Advanced Search Form</title>
+</head>
+<body>
+
+<form action="https://www.google.com/search" method="GET">
+  <fieldset>
+    <legend>Advanced Google Search</legend>
+    <label for="exact">Exact Phrase:</label>
+    <input type="text" id="exact" name="as_epq" placeholder="Enter exact phrase"><br><br>
+    
+    <label for="any">Any of These Words:</label>
+    <input type="text" id="any" name="as_oq" placeholder="Enter words separated by spaces"><br><br>
+    
+    <label for="exclude">Exclude Words:</label>
+    <input type="text" id="exclude" name="as_eq" placeholder="Enter words separated by spaces"><br><br>
+    
+    <label for="range_start">Range Start:</label>
+    <input type="number" id="range_start" name="as_nlo" placeholder="Start"><br><br>
+    
+    <label for="range_end">Range End:</label>
+    <input type="number" id="range_end" name="as_nhi" placeholder="End"><br><br>
+    
+    <label for="site">Search Within Site:</label>
+    <input type="text" id="site" name="as_sitesearch" placeholder="Enter site URL"><br><br>
+    
+    <label>Search Options:</label><br>
+    <input type="checkbox" id="images" name="tbm" value="isch">
+    <label for="images">Images</label><br>
+    <input type="checkbox" id="videos" name="tbm" value="vid">
+    <label for="videos">Videos</label><br><br>
+    
+    <label>Safe Search:</label><br>
+    <input type="radio" id="safe" name="safe" value="on">
+    <label for="safe">On</label><br>
+    <input type="radio" id="unsafe" name="safe" value="off">
+    <label for="unsafe">Off</label><br><br>
+    
+    <input type="submit" value="Search">
+  </fieldset>
+</form>
+
+</body>
+</html>
 
