@@ -17,7 +17,7 @@ img {
 }
 .container {
     display: flex;
-    width: 50vw;
+    width: 30vw;
 }
 .element {
     margin-left: auto;
